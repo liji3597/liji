@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\Libraries\CMSIS\Include -I ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\User -I ..\..\User\BSP -I ..\..\User\FATFS -I ..\..\User\nmea_decode\include
+-I D:\fireClass\野火模块产品\GPS定位\gps-beidou-atgm332d\配套资料\2-开发板配套例程\F407_霸天虎开发板\导航定位系统V1.1\Project\RVMDK（uv5）\RTE
+-I E:\keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I E:\keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="518" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx
+-o ..\..\output\bsp_nt35510_lcd.o --omf_browse ..\..\output\bsp_nt35510_lcd.crf --depend ..\..\output\bsp_nt35510_lcd.d "..\..\User\BSP\lcd\bsp_nt35510_lcd.c"
